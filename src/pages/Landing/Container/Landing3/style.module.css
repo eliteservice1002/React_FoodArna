@@ -1,0 +1,33 @@
+.backgroundContainer{
+    position:relative;
+    max-height: none;
+    height:937px;
+    width:100%;
+    z-index:0;
+    background-position: center;
+}
+.fontTitle{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 52px;
+    color: #FFFFFF;
+}
+
+.fontContent{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.0em;
+    line-height: 1em;
+    color: #FCD652;
+}
+
+.btn{
+
+}
+
+.btn:hover{
+    background-color: purple;
+}

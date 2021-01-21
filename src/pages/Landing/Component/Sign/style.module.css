@@ -1,0 +1,6 @@
+.imgStyle{
+    margin-left: -10px;
+}
+.imgStyle:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,107 @@
+#mainMenuGrid{
+    margin-top: 3%;
+}
+.centerStyle{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media(max-width:959px){
+    #orderOnline{
+        width:135%;
+    }
+}
+
+
+@media(max-width:959px){
+    .stateTypography{
+        display:flex;
+    }
+}
+
+.profilecookGradeFontStyle{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 150%;
+    line-height: 37px;
+    text-align: center;
+    color: #464646;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+    /*height: 580px;*/
+}
+
+.item {
+    width: 32%;
+    margin-bottom: 2%; /* (100-32*3)/2 */
+}
+
+ Re-order items into rows
+.item:nth-of-type(3n+1) { order: 1; }
+.item:nth-of-type(3n+2) { order: 2; }
+.item:nth-of-type(3n)   { order: 3; }
+
+ Force new columns
+.container::before,
+.container::after {
+    content: "";
+    flex-basis: 100%;
+    width: 0;
+    order: 2;
+}
+
+.rightBorder{
+    border-right: 1px solid black;
+}
+
+/*.buttonStyle{*/
+/*    fontFamily: Roboto;*/
+/*    font-style: normal;*/
+/*    font-weight: normal;*/
+/*    width: 70%;*/
+/*    border-radius: 20px;*/
+/*    height: 150%;*/
+/*    color:#FCD652;*/
+/*    background-color: #DD354D;*/
+/*    fontSize:200%;*/
+/*}*/
+
+/*@media(max-width:1279px){*/
+/*    .reSellBTN{*/
+/*        font-size: 120%;*/
+/*    }*/
+/*}*/
+
+.deliveryProgressBTN{
+    font-size: 150%;
+}
+
+@media(max-width:959px){
+    .deliveryProgressBTN{
+        font-size: 100%;
+    }
+}
+
+@media(max-width:959px){
+    #map{
+        margin-top: -60%;
+    }
+}
+
+@media(max-width:599px){
+    #map{
+        margin-top: -40%;
+    }
+}
+

@@ -1,0 +1,117 @@
+#mainMenuGrid{
+    margin-top: 3%;
+}
+.centerStyle{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media(max-width:959px){
+    .stateTypography{
+        display:flex;
+    }
+}
+
+.profilecookGradeFontStyle{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 150%;
+    line-height: 37px;
+    text-align: center;
+    color: #464646;
+    display: flex;
+    align-items: center;
+}
+
+@media(max-width:959px){
+    .profilecookGradeFontStyle{
+        font-size: 100%;
+    }
+    #feedbackStar{
+        width: 80%;
+    }
+    #chefPhoneImg{
+        transform: scale(0.7);
+    }
+    #chefMailImg{
+        transform: scale(0.7);
+    }
+}
+
+
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+    /*height: 580px;*/
+}
+
+.item {
+    width: 32%;
+    margin-bottom: 2%; /* (100-32*3)/2 */
+}
+
+ Re-order items into rows
+.item:nth-of-type(3n+1) { order: 1; }
+.item:nth-of-type(3n+2) { order: 2; }
+.item:nth-of-type(3n)   { order: 3; }
+
+ Force new columns
+.container::before,
+.container::after {
+    content: "";
+    flex-basis: 100%;
+    width: 0;
+    order: 2;
+}
+
+.rightBorder{
+    border-right: 1px solid black;
+}
+
+
+
+.deliveryProgressBTN{
+    font-size: 150%;
+}
+
+@media(max-width:959px){
+    .deliveryProgressBTN{
+        font-size: 100%;
+    }
+}
+
+@media(max-width:959px){
+    #map{
+        margin-top: -60%;
+    }
+    #chefLink{
+        font-size: 100%;
+    }
+}
+
+@media(max-width:599px){
+    #map{
+        margin-top: -40%;
+    }
+
+    .foodImg{
+        width: 70%;
+    }
+
+}
+
+@media(max-width:1279px){
+    #map{
+        margin-top: -14%;
+    }
+}
+
+@media(max-width:959px){
+    #map{
+        margin-top: -88%;
+    }
+}

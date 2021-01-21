@@ -1,0 +1,60 @@
+.CarouselImageStyle{
+    width: 232px;
+    height: 232px;
+    border-radius:161px;
+    z-index:3;
+}
+
+.CarouselImageBorder{
+    width: 284px;
+    height: 284px;
+    border: 1px solid #464646;
+    border-radius:142px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+@media (max-width:1200px)
+{
+    .CarouselImageStyle{
+        width: 200px;
+        height: 200px;
+        border-radius:161px;
+        z-index:3;
+    }
+}
+
+@media (max-width:1200px)
+{
+    .CarouselImageBorder{
+        width: 236px;
+        height: 236px;
+        border: 1px solid #464646;
+        border-radius:118px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+}
+
+@media (max-width: 700px){
+    .CarouselImageStyle{
+        width: 160px;
+        height: 160px;
+        border-radius:161px;
+        z-index:3;
+    }
+
+    .CarouselImageBorder{
+        width: 190px;
+        height: 190px;
+        border: 1px solid #464646;
+        border-radius:142px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+}
+
+
+

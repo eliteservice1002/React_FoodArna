@@ -1,0 +1,21 @@
+.oneStopTitle{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 35px;
+    text-align: center;
+
+    color: #FCD652;
+}
+
+@media (max-width:1040px){
+    .oneStopTitle{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 35px;
+        text-align: center;
+
+        color: #FCD652;
+    }
+}

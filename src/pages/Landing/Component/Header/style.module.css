@@ -1,0 +1,24 @@
+.spaceStyle{
+    margin-right: 5px;
+}
+
+.fixheader{
+    position:fixed;
+    background-image: url('../../../../assets/images/logo.svg');
+    background-color:#464646;
+    opacity:0.5;
+}
+
+.lineStyle{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.lineStyle:hover{
+    cursor: pointer;
+}
+.lineStyle1{
+    margin-left: 5px;
+}
+.lineStyle1:hover{
+    cursor: pointer;
+}

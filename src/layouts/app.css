@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Sentinel-Black";
+    src: url("../assets/fonts/Sentinel-Black.otf");
+  }
+
+html, body {
+  height: 100vh
+}

@@ -1,0 +1,24 @@
+.backgroundContainer{
+    position:relative;
+    max-height: none;
+    height: 937px;
+    width:100%;
+    z-index:0;
+    background-position: right top;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.borderContainerL{
+    border: 2px solid  rgba(221,53,77,1);
+    width: 53px;
+    height:327px;
+    border-right: none;
+}
+
+.borderContainerR{
+    border: 2px solid  rgba(221,53,77,1);
+    width: 53px;
+    height:327px;
+    border-left: none;
+}

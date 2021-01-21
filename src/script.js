@@ -1,0 +1,1 @@
+document.write('This is output by document.write()!')
