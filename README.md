@@ -1,2 +1,2 @@
 # foodarna-new
-Integrate the frontend and design
+Implement the Front end based on Figma design
